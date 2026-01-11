@@ -1,10 +1,54 @@
 body {
-    background-color:blue;
-    color: white;
-}body {
+  background-color: blue;
+  color: white;
+}
+
+body {
   background-color: blue;
   color: white;
   text-align: center;
   font-size: 30px;
   font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: MistyRose;
+  font-family: times and roman, sans-serif;
+}
+
+table {
+  background-color: white;
+  border-radius: 10px;
+}
+
+td {
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+input focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: blue;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: darkgreen;
 }
